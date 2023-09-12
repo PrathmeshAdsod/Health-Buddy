@@ -1,0 +1,44 @@
+.navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #0099ff;
+  }
+  
+  .auth-links {
+    margin-left: auto;
+  }
+  
+  .auth-links a {
+    margin-left: 20px;
+  }
+  
