@@ -1,0 +1,38 @@
+/* MainPage.css */
+.main-container {
+    position: relative;
+    height: 100vh;
+    background-color: #f0f0f0; /* Fallback background color in case image do not load */
+    background-image: url('../public/doctor-patient.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .background-content {
+    position: absolute;
+    top: 1;
+    right: 1;
+    bottom: 1;
+    left: 0;
+    background-color: rgba(0, 119, 255, 0.4); /* Semi-transparent background overlay */
+  }
+  
+  .content {
+    z-index: 1; /* Place content above the background */
+  }
+  
+  .main-text {
+    font-size: 60px; /* Adjust the font size as needed */
+    font-weight: bold;
+    color: rgb(235, 229, 229); /* Text color */
+    margin: 0;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(57, 56, 56, 0.5);
+  }
+  
+  /* Add media queries for responsive design as needed */
+  
